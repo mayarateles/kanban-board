@@ -1,0 +1,24 @@
+.box-erp-login {
+  max-width: 14em;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+.box-erp-login input[type="password"],
+.box-erp-login input[type="text"] {
+  font-size: 1em;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 0.25em;
+}
+
+.box-erp-login button {
+  margin-top: 1.5em;
+  border-radius: 0.25em;
+  background: #1c2327;
+  border: none;
+  color: #fff;
+  padding: 0.5em 1em;
+  font-size: 0.8em;
+  box-sizing: border-box;
+}

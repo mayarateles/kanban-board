@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #f1f1f0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  background-color: lightseagreen;
+  color: black;
+}
+
+.two {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.card-header {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#column-header {
+  background-color: lightseagreen;
+}
+
+.btn {
+  background-color: transparent;
+  color: lightseagreen;
+}
+
+.fa-plus-square {
+  color: black;
+}
+
+.name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.conteudo {
+  margin-bottom: 16px;
+}

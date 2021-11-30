@@ -1,0 +1,27 @@
+<div class="box-erp-login">
+  <form [formGroup]="loginForm" action="">
+    <div>
+      <label for="session[email]">E-mail</label>
+      <input
+        class="form-control"
+        placeholder="Usuario"
+        name="login"
+        type="text"
+        formControlName="login"
+      />
+    </div>
+    <div>
+      <label for="session[senha]">Senha</label>
+      <input
+        class="form-control"
+        placeholder="Senha"
+        name="senha"
+        type="password"
+        formControlName="senha"
+      />
+    </div>
+    <div>
+      <button type="submit" (click)="onSubmit()" class="submit">Entrar</button>
+    </div>
+  </form>
+</div>
