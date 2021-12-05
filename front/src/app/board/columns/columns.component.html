@@ -1,0 +1,36 @@
+<div class="d-flex flex-column p-2 px-6 w-100">
+  <div class="card mb-3">
+    <div
+      class="
+        card-header
+        text-center
+        align-items-center
+        d-flex
+        justify-content-between
+        text-dark
+        px-3
+      "
+      id="column-header"
+    >
+      <a class="invisible btn btn-success">
+        <i class="fa-2x fas fa-plus-square text"></i>
+      </a>
+      <h3>{{ column }}</h3>
+      <a
+        class="btn"
+        (click)="onCreateCard()"
+        [ngClass]="column === 'ToDo' ? 'visible' : 'invisible'"
+      >
+        <i class="fa-2x fas fa-plus-square text"></i>
+      </a>
+    </div>
+    <div class="card-body">
+      <app-card
+        *ngFor="let card of cards"
+        [column]="column"
+        [card]="card"
+        (cardChanged)="onCardChanged(card)"
+      ></app-card>
+    </div>
+  </div>
+</div>

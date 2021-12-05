@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f2eee8;
+  font-family: "Open Sans";
+}
+
+h1 {
+  font-weight: 800;
+  color: #383a41;
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 20px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 5px;
+
+  justify-content: center;
+}
